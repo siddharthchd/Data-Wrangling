@@ -17,3 +17,5 @@ df = pd.read_csv(filename, names = headers)
 # replace ? with NaN
 df.replace("?", np.nan, inplace = True)
 print(df.head(5))
+
+# Evaluating 
